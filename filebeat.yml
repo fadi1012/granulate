@@ -1,1 +1,7 @@
 
+filebeat.inputs:
+- type: log
+  paths:
+  - '/home/ubuntu/apache2/access.log'
+output.elasticsearch:
+  hosts: ["elasticsearch:9200"]
