@@ -10,5 +10,6 @@
 - Created a tunnel to my local machine to the services:
  1. ssh -L 9200:127.0.0.1:9200 -N -f -i "exercise.pem" ubuntu@3.90.25.97
  2. ssh -L 8080:127.0.0.1:80 -N -f -i "exercise.pem" ubuntu@3.90.25.97
- 3. ssh -L 6501:127.0.0.1:5601 -N -f -i "exercise.pem" ubuntu@3.90.25.97
+ 3. ssh -L 5601:127.0.0.1:5601 -N -f -i "exercise.pem" ubuntu@3.90.25.97
 - u can follow the logs of filebit each time we refresh apache webserver at localhost:8080 with the following comman sudo docker logs filebit --follow
+- accessed kibana through http://localhost:5601/app/kibana#/home?_g=() and discoverd the index
