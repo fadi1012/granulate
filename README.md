@@ -13,3 +13,7 @@
  3. ssh -L 5601:127.0.0.1:5601 -N -f -i "exercise.pem" ubuntu@3.90.25.97
 - u can follow the logs of filebit each time we refresh apache webserver at localhost:8080 with the following comman sudo docker logs filebit --follow
 - accessed kibana through http://localhost:5601/app/kibana#/home?_g=() and discoverd the index
+
+
+Please bare in mind that i started the home assigmenet at 21:30, I had issues with re connecting to the webserver from 22:00 till 22:30 and I did not manage to get to the extra steps in the time assigned to me.
+Attached a screenshot of the kibana data i get, this is my first time doing something similar to this or at least to create a dashboard from scratch etc...
